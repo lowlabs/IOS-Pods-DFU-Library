@@ -198,7 +198,7 @@ import CoreBluetooth
      
      - since: 4.8.0
      */
-    @objc public var connectionTimeout: TimeInterval = 10.0
+    @objc public var connectionTimeout: TimeInterval = 300.0
     
     /**
      Duration of a delay, that the service will wait before sending each data object in
